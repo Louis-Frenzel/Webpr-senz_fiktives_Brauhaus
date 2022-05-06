@@ -1,0 +1,17 @@
+h1 {color: darkred;
+        background-color: lemonchiffon;
+        text-align: center; font-size: 3em}
+    h2 {text-align: center}
+    p {text-align: center}
+    body {background-color: lemonchiffon}
+
+
+table {text-align: left;margin-left: 10%}
+            h2.essentrinken {margin-left: 20%}
+            th.klassiker, th.suppen, th.klein {width: 500px;}
+            tr:nth-child(even) {background-color:lightyellow;}
+            th.preis {text-align: right}
+
+
+            th.fass, th.flasche {text-align: left; width: 500px; }
+            th.liter {width: 50px}
