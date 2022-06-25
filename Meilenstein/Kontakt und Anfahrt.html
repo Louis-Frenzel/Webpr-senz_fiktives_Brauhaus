@@ -5,13 +5,20 @@
         <meta content="width=device-width">
         <title>Kontakt & Anfahrt</title>
        <link rel="stylesheet" href="Webpr%C3%A4senz.css">
+        <script src="JS/JSKontakt.js" defer></script>
     </head>
     
     <body>
+        <div id="page-container">
+   <div id="content-wrap">
+        <header>
         <h1>Zum roten Keiler</h1>
+        <h2>Kontakt und Anfahrt</h2>
+        </header>
+        
     <nav>    
     <ul>
-    <li><a href="Webpr%C3%A4senz.html">Startseite</a></li>
+    <li><a href="Index.html">Startseite</a></li>
     <li><a href="Speisekarte.html">Speisekarte</a></li>
     <li><a href="Getr%C3%A4nke.html">Getränkekarte</a></li>
     <li><a href="Galerie.html">Bilder</a></li>
@@ -20,10 +27,43 @@
     <li><a tabindex="0" aria-current="page" >Kontakt und Anfahrt</a></li>
     </ul>
     </nav> 
+   <h2>Kontaktformular</h2>  
+<main>
+    
+<div>
+  <form id="kontakt">
+      <label for="kontakt">E-Mail Adresse: </label>
+      <input type="text" id="kontaktmail">   
+      <br>
+      <label for="kontakt">Vor- und Nachname: </label>
+      <input type="text" id="kontaktname">  
+      <br>
+      <br>
+      <textarea id="eingabebox" rows="30" cols="80">Was möchtest Du wissen?
+      </textarea>
+      <br>
+      <button onclick="kontaktformular()">absenden</button>
+    
+    </form>
+    
+    </div>
+       
+       
+       
+       
+       </main>
+            </div>
+            
         
-        <h2>Kontakt und Anfahrt</h2>
+        <footer id="footer"> 
+Brauhaus zum roten Keiler
+<br>
+Keilerstr. 1
+<br>
+12345 Musterstadt
+
+</footer>  
         
-        
-        
+        </div>
     </body>
 </html>
