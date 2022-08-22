@@ -5,35 +5,103 @@
         <meta content="width=device-width">
         <title>Galerie</title>
        <link rel="stylesheet" href="Webpr%C3%A4senz.css">
+        <script src="JS/BilderJS.js" defer></script>
     </head>
     
     <body>
+     <div id="page-container">
+   <div id="content-wrap">   
+        <header>
         <h1>Zum roten Keiler</h1>
-    
+        <div id="logo"><img src="Bilder/Keiler%20Logo%20Version%201.png" alt="Brauhaus Logo" width="150"></div>
+        <h2>Bilder</h2>
+        </header>
+        
     <nav>
     <ul>
-    <li><a href="Webpr%C3%A4senz.html">Startseite</a></li>
+    <li><a href="Index.html">Startseite</a></li>
     <li><a href="Speisekarte.html">Speisekarte</a></li>
     <li><a href="Getr%C3%A4nke.html">Getränkekarte</a></li>
     <li><a tabindex="0" aria-current="page" >Bilder</a></li>
     <li><a href="Video.html">Die Geschichte des Kölsch</a></li>
     <li><a href="%C3%9Cber%20uns.html">Über uns</a></li>
-    <li><a href="Kontakt%20und%20Anfahrt.html">Kontakt und Anfahrt</a></li>
+    <li><a href="Kontakt%20und%20Anfahrt.html">Kontakt</a></li>
     </ul>
     </nav>
         
-        <h2>Bilder</h2>
+        <main class="bilder">
+<!-- Code von W3Schools -->
+            
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 6</div>
+    <img src="Bilder/Gemeinfrei/au%C3%9Fenansicht.jpg" style="width:100%">
+    <div class="text">unsere über 100 Jahre alte Außenfassade macht bereits Lust auf mehr</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 6</div>
+    <img src="Bilder/Gemeinfrei/Innenraum.jpg" style="width:100%">
+    <div class="text">Unser Restaurant bietet Platz für mehr als 50 Gäste</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 6</div>
+    <img src="Bilder/Gemeinfrei/Biergarten.jpg" style="width:100%">
+    <div class="text">darüber hinaus bietet der Biergarten weitere 30 Plätze</div>
+  </div>
+    
+    <div class="mySlides fade">
+    <div class="numbertext">4 / 6</div>
+    <img src="Bilder/Gemeinfrei/Braukessel.jpg" style="width:100%">
+    <div class="text">Unsere Braukessel laufen seit 1884 auf Hochtouren</div>
+  </div>
+    
+    <div class="mySlides fade">
+    <div class="numbertext">5 / 6</div>
+    <img src="Bilder/Gemeinfrei/Koch.jpg" style="width:100%">
+    <div class="text">unser Koch bei der Arbeit</div>
+  </div>
+    
+    <div class="mySlides fade">
+    <div class="numbertext">6 / 6</div>
+    <img src="Bilder/Gemeinfrei/schnitzel-645457_1920.jpg" style="width:100%">
+    <div class="text">probieren Sie unsere traditionelle Hausmannskost</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+<span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+</div>
+            
+            
+        </main>
         
-        <img src="Bilder/13.91_Staedtereise_Koeln_Reportage_mauritius_J0R0CT.jpg" alt="kleiner Kölschkranz" width="400">
-        <img src="Bilder/2018-02-26-Peters-Brauhaus-FJR-047.jpg" alt="Hacksteak mit geschmorten Zwiebeln und Bratkartoffeln" width="400">
-        <img src="Bilder/altes-brauhaus-bad-berka-innenausstattung.webp" alt="Gastraum Wendeltreppe" width="400">
-        <img src="Bilder/brauhaus-puetz-koeln-1-artikel-1024x683.jpg" alt="Gastraum EG" width="400">
-        <img src="Bilder/brauhaus_bielefeld.jpg" alt="Außenansicht" width="400">
-        <img src="Bilder/brauhauskeller-fasskeller-1.jpg" alt="Fasskeller" width="400">
-        <img src="Bilder/csm_LEO_Brauhaus_zum_Loewen_Team_Marco_Fongern_0a9a52435b.jpg" alt="Unsere Mitarbeiter" width="400">
-        <img src="Bilder/image.jpg" alt="Braukeller" width="400">
+        </div>    
         
        
-        
+     <footer id="footer"> 
+Brauhaus zum roten Keiler
+<br>
+Keilerstr. 1
+<br>
+12345 Musterstadt
+
+</footer>    
+       </div>  
     </body>
 </html>
